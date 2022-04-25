@@ -7,6 +7,9 @@
 </head>
 <!--This landing page is your first impression. You can include a photo, a mission statement, and something which defines you. Using a quote is a great idea as well.-->
 <body>
+
+    <a name="top"></a>
+
     <div id="navbar">
         
         <h1 id="navlogo">Jordan's Portfolio</h1>
@@ -17,19 +20,22 @@
                 <li><a href="bio.html">About Me</a></li>
                 <li><a href="experience.html">My Experience</a></li>
                 <li><a href="portfolio.html">My Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
 
     </div>
 
     <content>
-        <h2 id="quote">"The whole is greater than the sum of the parts."</h2>
-        <h3 id="quoteauthor">- Aristotle</h3>
+        <div id="quote">
+            <h2>"The whole is greater than the sum of the parts."</h2>
+            <h3>- Aristotle</h3>
+        </div>
 
-        <article>
+        <article class="mission">
             <p>I have only recently taken my first steps into programming, but I can see that it's a field with extremely wide application. Some of our adventures as software engineers will lead us to building entire new apps, new games, or new websites, which may sound like too big of an undertaking. Fortunately though, now that I have begun to learn, I can see those promethean sized projects are built one piece at a time, like building legos or piecing together a puzzle. Add one function here. Center a div there. Link the stylesheet. Suddenly like magic, the whole becomes greater than the sum of it's parts.</p>
 
-            <img src="Images/Kanizsa Triangle.jpeg" alt="A Kanizsa Triangle. An optical illusion where the viewers mind interprets a triangle in negative space." />
+            <img src="Images/Kanizsa Triangle.jpeg" alt="A Kanizsa Triangle. An optical illusion where the viewers mind interprets a triangle in negative space." class="homeimg"/>
 
             <p>I think this quote fits well to not only the large projects that might be headed out way, but also to the roles we will fill where maybe our responsiblities are only to the UI of a single page. Maybe one day we find ourselves as hotshot programmers at Google, Meta, Apple, or anywhere else, and our job is to design a submit button on a webpage. That contribution might be considered "small", but if you look at the whole of the webpage or the company, our "small" contribution has afforded end-users something that they need.</p>
 
@@ -38,7 +44,12 @@
 
     </content>
 
-
+     <footer id="contact">
+        Author: Jordan Hornback
+        <a href="https://www.linkedin.com/in/jordan-hornback-020646187/">LinkedIn</a>
+        <a href="https://github.com/JordanPHornback">github</a>
+        <a href="#top">Back to Top</a>
+    </footer>
 
 </body>
 
