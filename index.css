@@ -111,7 +111,7 @@ content > h2 {
 
 .mission > p {
     padding: 15px;
-    background-image: linear-gradient(to bottom left, gray, #706D6D) ;
+    background-image: linear-gradient(to bottom left, #202020, #404040) ;
     font-size: large;
     box-shadow: 0 0 8px #000;
 }
@@ -188,7 +188,7 @@ a {
 
 .interests {
     padding: 0px 15px;
-    background-image: linear-gradient(to bottom left, gray, #706D6D) ;
+    background-image: linear-gradient(to bottom left, #303030, #454545) ;
     font-size: large;
     box-shadow: 0 0 8px #000;
     display: flex;
@@ -199,7 +199,7 @@ a {
 
 .wfh {
     padding: 0px 15px;
-    background-image: linear-gradient(to bottom left, gray, #706D6D) ;
+    background-image: linear-gradient(to bottom left, #303030, #454545);
     font-size: large;
     box-shadow: 0 0 8px #000;
     display: flex;
@@ -210,7 +210,7 @@ a {
 
 .goals {
     padding: 0px 15px;
-    background-image: linear-gradient(to bottom left, gray, #706D6D) ;
+    background-image: linear-gradient(to bottom left, #303030, #454545);
     font-size: large;
     box-shadow: 0 0 8px #000;
     display: flex;
@@ -222,7 +222,7 @@ a {
 
 .summary {
     padding: 0px 15px;
-    background-image: linear-gradient(to bottom left, gray, #706D6D) ;
+    background-image: linear-gradient(to bottom left, #303030, #454545);
     font-size: large;
     box-shadow: 0 0 8px #000;
     display: flex;
@@ -270,7 +270,7 @@ button {
 
 .projects {
     padding: 20px 15px;
-    background-image: linear-gradient(to bottom left, gray, #706D6D) ;
+    background-image: linear-gradient(to bottom left, #303030, #454545) ;
     font-size: large;
     box-shadow: 0 0 8px #000;
     display: flex;
@@ -355,7 +355,7 @@ h3 {
 
     .projects {
         padding: 20px 15px;
-        background-image: linear-gradient(to bottom left, gray, #706D6D) ;
+        background-image: linear-gradient(to bottom left, #303030, #454545) ;
         font-size: large;
         box-shadow: 0 0 8px #000;
         display: flex;
