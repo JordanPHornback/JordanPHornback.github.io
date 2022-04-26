@@ -1,9 +1,33 @@
 html {
     background-color: #4b4949;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+    overflow-x: hidden;
+}
+
+#page-container {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+body {
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lora', serif;
+    overflow: hidden;
 }
 
 .content {
     display: none;
+}
+
+#mecon {
+    margin-top: 0px;
 }
 
 #navbar {
@@ -16,7 +40,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 0px;
     width: 100%;
     height: 70px;
@@ -32,6 +56,7 @@ nav {
 #navlogo {
     color: #40d123;
     background-color: transparent;
+    padding-left: 20px;
 }
 
 nav > ul {
@@ -68,11 +93,16 @@ content {
     align-content: center;
 }
 
+content > h2 {
+    text-shadow: 2px 2px 3px black;
+}
+
 #quote {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-shadow: 2px 2px 3px black;
 }
 
 .mission {
@@ -80,20 +110,24 @@ content {
     justify-content: center;
     flex-direction: column;
     align-content: center;
+    margin-bottom: 135px;
 }
 
 .mission > p {
-    border: 2px solid #40d123;
     padding: 15px;
-    background-color: gray ;
+    background-image: linear-gradient(to bottom left, gray, #706D6D) ;
     font-size: large;
+    box-shadow: 0 0 8px #000;
 }
 
 .homeimg {
     display: block;
     margin: auto;
-    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 25%;
     width: 25%;
+    box-shadow: 0 0 2px slategray;
 }
 
 footer {
@@ -106,9 +140,11 @@ footer {
     left: 0;
     right: 0;
     height: 70px;
-    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     align-items: center;
     color: darkseagreen;
+    width: 100%;
 }
 
 footer > a {
@@ -120,3 +156,12 @@ footer > a {
 footer > a:hover {
     border-bottom: 2px solid #40d123;
 }
+
+img {
+    height: 40%;
+    width: 40%;
+}
+
+/* #amcont {
+
+} */
