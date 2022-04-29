@@ -114,6 +114,7 @@ content > h2 {
     background-image: linear-gradient(to bottom left, #202020, #404040) ;
     font-size: large;
     box-shadow: 0 0 8px #000;
+    border-radius: 8px;
 }
 
 .homeimg {
@@ -124,6 +125,7 @@ content > h2 {
     height: 25%;
     width: 25%;
     box-shadow: 0 0 2px slategray;
+    border-radius: 3px;
 }
 
 footer {
@@ -157,12 +159,14 @@ img {
     height: 40%;
     width: 40%;
     box-shadow: 0px 0px 8px #000;
+    border-radius: 3px;
 }
 
 #amcon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 8px;
 }
 
 figcaption {
@@ -173,12 +177,6 @@ figcaption {
 #amcon > img {
     display: flex;
     align-self: center;
-}
-
-.wfh {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 a {
@@ -195,6 +193,7 @@ a {
     flex-direction: column;
     align-items: center;
     margin: 30px 0;
+    border-radius: 8px;
 }
 
 .wfh {
@@ -206,6 +205,7 @@ a {
     flex-direction: column;
     align-items: center;
     margin: 30px 0;
+    border-radius: 8px;
 }
 
 .goals {
@@ -218,6 +218,7 @@ a {
     align-items: center;
     margin: 30px 0;
     padding-bottom: 15px;
+    border-radius: 8px;
 }
 
 .summary {
@@ -228,6 +229,7 @@ a {
     display: flex;
     flex-direction: column;
     margin: 30px 0;
+    border-radius: 8px;
 }
 
 #expnav {
@@ -235,6 +237,7 @@ a {
     width: 20%;
     box-shadow: 0 0 2px #000;
     border: solid 1px black;
+    border-radius: 5px;
 }
 
 #mecon h2 {
@@ -257,6 +260,7 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px 0px 15px;
+    border-radius: 6px;
 }
 
 .content {
@@ -276,12 +280,14 @@ button {
     display: flex;
     align-items: center;
     margin: 30px 0;
+    border-radius: 8px;
 }
 
 .projects img {
     align-self: flex-start;
     height: 25%;
     width: 25%;
+    border-radius: 3px;
 }
 
 .desc {
