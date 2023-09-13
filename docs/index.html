@@ -1,63 +1,461 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Jordan's Portfolio - Home</title>
 
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 
-    <style>html {background-image: url(Images/aurora1.jpeg);}</style>
+    <style>
+        html {
+            background-color: black;
+        }
+    </style>
 
 </head>
-<!--This landing page is your first impression. You can include a photo, a mission statement, and something which defines you. Using a quote is a great idea as well.-->
+
+
 <body>
 
     <div id="page-container">
 
-    <div id="navbar">
-        
-        <h1 id="navlogo">Jordan's Portfolio</h1>
+        <div id="navbar">
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="bio.html">About Me</a></li>
-                <li><a href="experience.html">My Experience</a></li>
-                <li><a href="portfolio.html">My Projects</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
-        </nav>
+            <h1 id="navlogo">Jordan Hornback</h1>
 
-    </div>
+            <nav>
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#bio">About Me</a></li>
+                    <li><a href="#experience">My Experience</a></li>
+                    <li><a href="#portfolio">My Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
 
-    <content>
-        <div id="quote">
-            <h2>"The whole is greater than the sum of the parts."</h2>
-            <h3>- Aristotle</h3>
         </div>
 
-        <article class="mission">
-            <p>I have only recently taken my first steps into programming, but I can see that it's a field with extremely wide application. Some of our adventures as software engineers will lead us to building entire new apps, new games, or new websites, which may sound like too big of an undertaking. Fortunately though, now that I have begun to learn, I can see those promethean sized projects are built one piece at a time, like building legos or piecing together a puzzle. Add one function here. Center a div there. Link the stylesheet. Suddenly like magic, the whole becomes greater than the sum of it's parts.</p>
+        <div id="main">
+            <content>
+                <div id="quote">
+                    <h2>"The whole is greater than the sum of the parts."</h2>
+                    <h3>- Aristotle</h3>
+                </div>
 
-            <img src="Images/Kanizsa Triangle.jpeg" alt="A Kanizsa Triangle. An optical illusion where the viewers mind interprets a triangle in negative space." class="homeimg"/>
+                <article class="mission">
+                    <p>I have only recently taken my first steps into programming, but I can see that it's a field with
+                        extremely wide application. Some of our adventures as software engineers will lead us to
+                        building entire new apps, new games, or new websites, which may sound like too big of an
+                        undertaking. Fortunately though, now that I have begun to learn, I can see those promethean
+                        sized projects are built one piece at a time, like building legos or piecing together a puzzle.
+                        Add one function here. Center a div there. Link the stylesheet. Suddenly like magic, the whole
+                        becomes greater than the sum of it's parts.</p>
 
-            <p>I think this quote fits well to not only the large projects that might be headed out way, but also to the roles we will fill where maybe our responsiblities are only to the UI of a single page. Maybe one day we find ourselves as hotshot programmers at Google, Meta, Apple, or anywhere else, and our job is to design a submit button on a webpage. That contribution might be considered "small", but if you look at the whole of the webpage or the company, our "small" contribution has afforded end-users something that they need.</p>
+                    <img src="Images/Kanizsa Triangle.jpeg"
+                        alt="A Kanizsa Triangle. An optical illusion where the viewers mind interprets a triangle in negative space."
+                        class="homeimg" />
 
-        </article>
+                    <p>I think this quote fits well to not only the large projects that might be headed out way, but
+                        also to the roles we will fill where maybe our responsiblities are only to the UI of a single
+                        page. Maybe one day we find ourselves as hotshot programmers at Google, Meta, Apple, or anywhere
+                        else, and our job is to design a submit button on a webpage. That contribution might be
+                        considered "small", but if you look at the whole of the webpage or the company, our "small"
+                        contribution has afforded end-users something that they need.</p>
+
+                </article>
 
 
-    </content>
+            </content>
+        </div>
 
-     <footer id="contact">
-        Author: Jordan Hornback
-        <a href="https://www.linkedin.com/in/jordan-hornback-020646187/">LinkedIn</a>
-        <a href="https://github.com/JordanPHornback">github</a>
-    </footer>
+        <div id="bio">
+
+            <content id="amcon">
+
+                <h2>About Me</h2>
+
+                <div class="summary">
+
+                    <p>Hello! My name is Jordan, and I'm currently a Java applications developer. I'm 25 years old,
+                        and am a father of two amazing children.</p>
+
+                    <p>You can find out more in my <a href="#experience"> experience section</a>, but a short summary
+                        of my work experience and interests would be that I have a passion for safety. I am attracted to
+                        roles and projects that contribute to the protection of users, and have spent the last few years
+                        working in trust and safety positions at large tech companies in order to help remove bad actors
+                        and ensure the safety of those platforms.</p>
+
+                    <p>You can probably already tell by all of the gray and black, but I am not a front-end developer.
+                        Unfortunately, I don't have a single creative bone in my body capable of coming up with my own
+                        visual design. I am still quite able to follow design guides made by those creative types, but I
+                        find back-end and app-sec more intersting.</p>
+
+                </div>
+
+                <div class="interests">
+
+                    <h3>Interests</h3>
+
+                    <p>In my free time, I enjoy traveling and road tripping with my family, seeing nature, and watching
+                        movies/playing video games with my wife (and one day hopefully my kids). When it comes to
+                        movies I love just about anything, but I'm definitely drawn towards anything with good
+                        cinematography.</p>
+
+                    <img src="Images/iceland.jpg" alt="A night view of Iceland." />
+                    <figcaption>A night view of Iceland. This is at the top of my wife and I's dream destinations.
+                    </figcaption>
+
+                    <p>As far as traveling goes, I've never left the United States. While I've seen a lot of beautiful
+                        places here in the US, and still have lots more to see, I'm excited to one day travel outside of
+                        the US and see nature in other parts of the world.</p>
+
+                </div>
+
+                <div class="wfh">
+
+                    <h3>Motivation</h3>
+
+                    <p>As I mentioned before, I just recently became a father! My son, the oldest, was born in 2021, and
+                        his little sister a year later in 2022. Becoming a father has wildly changed my goals in life.
+                        Before my kids came around, I didn't mind taking on the overnight shifts and sleeping all day or
+                        working long hours that would have me gone 80+ hours a week. Driving to the office wasn't a
+                        problem, and I was more than happy to be in management leading a team.</p>
+
+                    <img src="Images/Work From Home with Kids.jpeg" alt="A father working from home with two kids." />
+
+                    <p>Now that I have my children though, I want to be able to spend more time with my family. My
+                        experience now as a software engineer has been amazing for my work life balance. The flexibility
+                        of working towards a goal instead of working set hours has been a life saver. Being able to
+                        finish a task and step away to make lunch for the family and pick right back up when I'm done is
+                        a miracle. Putting the kids down for a nap and being able to jump into my work for the next day,
+                        or having something I can work on during middle of the night feedings has helped me to be not
+                        only a more active parent, but also a more productive worker.</p>
+
+                </div>
+
+                <div class="goals">
+
+                    <h3>Goals</h3>
+
+                    <p>A goal I have for my career in software engineering would be to be on a team that handles cyber
+                        security. With so much of our lives now relying on technology, I want to be able to help protect
+                        my children and the next generation from cyber attacks that might endanger their safety or
+                        identities. The scale isn't the most important thing to me, whether it's security for a social
+                        media app where they post pictures of their lives, or maybe on a broader scale like a government
+                        position protecting from infrastucture attacks, I'd like to know my work helped to make people
+                        safer.</p>
+
+                    <img src="Images/Cyber Security.jpg" alt="Cyber security lock graphic." />
+
+                </div>
+            </content>
+
+        </div>
+
+        <div id="experience">
+
+            <content id="mecon">
+                <h2 id="workexp">Work Experience</h2>
+                <button type="button" class="collapsible" id="c1">ConvergeOne - Java Applications Developer<p>&#9660
+                    </p></button>
+                <div class="content">
+                    <h4>March 2022 to Present</h4>
+                    <ul>
+                        <li>Worked on an agile team in the Research & Development department using CI/CD methodology for
+                            product software based on user stories. General duties include bug fixes and feature
+                            requests directly from customers. (Java, JavaScript, HTML/CSS, RESTful API, API
+                            Microservices)</li>
+                        <li>Conducted daily audits of the Dev team's SLA on customer bugs and feature requests submitted
+                            by the Deployments team. (YouTrack, JIRA)</li>
+                        <li>Built a telephony backend connecting the Avaya Proactive Outreach Manager to our Unified
+                            Communications (UCaaS) product. (Java, C#, API, Log4j2)</li>
+                        <li>CBuilt and shipped production Integration Platform (IPaaS) flows that connect customer CRMs
+                            to our cloud servers for a second layer of data retention and personalization. (Node.js,
+                            RESTful API, API Microservices, GCP, Kubernetes, RabbitMQ, AMQP, Elasticstorage, Linux)</li>
+                        <li>Tech Stack: Java, Javascript, Node.js, HTML/CSS, OOP, Git, RESTful APIs, API microservices,
+                            Agile, RabbitMQ, AMQP, GCP, Kubernetes, Log4j2, Elasticstorage, Linux, YouTrack, JIRA</li>
+                    </ul>
+                </div>
+                <button type="button" class="collapsible" id="dd">DoorDash Inc. - Community Response Supervisor, Trust &
+                    Safety <p>&#9660</p></button>
+                <div class="content">
+                    <h4>June 2021 to December 2022</h4>
+                    <ul>
+                        <li>Leadership for the global Trust and Safety team including agents in the US, Germany, and Japan.</li>
+                        <li>Wrote a standardized taxonomy for the classification of safety incidents that improved data tracking.</li>
+                        <li>Created guidelines for interactions and interviews with accused parties during investigations.</li>
+                        <li>Created guidelines for interactions and interviews with accused parties during
+                            investigations.</li>
+                        <li>Coached team members through professional and personal growth opportunities.</li>
+                        <li>Leveraged experience with SQL to provide senior leadership with a more in-depth understanding of our safety data.</li>
+                    </ul>
+                </div>
+                <button type="button" class="collapsible" id="uber">Uber Technologies Inc. - Investigations Team Lead,
+                    Trust & Safety <p>&#9660</p></button>
+                <div class="content">
+                    <h4>April 2019 to June 2021</h4>
+                    <ul>
+                        <li>Responsible for team performance, monitoring caseloads, and coaching/development of team members.</li>
+                        <li>COVID-19 Subject Matter Expert - Point of contact for all Uber employees dealing with COVID-19 response.</li>
+                        <li>Pilot member of multiple projects including a soft phone integration, and a partnership with RAINN.</li>
+                        <li>Completed Ad Hoc projects such as driver vetting, mass tort, and COVID-19 related cases.</li>
+                        <li>Handle special investigations with media involvement. Serve as liaison between
+                            investigations and other internal stakeholders such as legal or media relations in order to
+                            form media responses.</li>
+                        <li>Developed and implemented an LOB wide case assignment system to fairly distribute a low case volume.</li>
+                        <li>Experience with SQL in writing business critical safety queries.</li>
+                    </ul>
+                </div>
+                <button type="button" class="collapsible" id="mcso">Maricopa County Sheriff's Office - Detention Officer
+                    <p>&#9660</p>
+                </button>
+                <div class="content">
+                    <h4>October 2017 to April 2019</h4>
+                    <ul>
+                        <li>Provide care, custody, and control for all of Maricopa County's sentenced and non-sentenced
+                            inmates while they are remanded to the Maricopa County Sheriff's Office's jail system.</li>
+                        <li>Maintain the safety and security of all Office facilities, equipment, and personnel.</li>
+                        <li>Special training included an assignment to a unit dedicated to handling juvenile inmates
+                            that were being remanded as adults and required officers to adapt to more uncertain
+                            situations, as juvenile inmates in this could be volatile and required special care in order
+                            to develop socially and mentally while still serving their time in county jail.</li>
+                    </ul>
+                </div>
+                <button type="button" class="collapsible" id="amc">AMC Theatres - Operations Supervisor <p>&#9660</p>
+                </button>
+                <div class="content">
+                    <h4>December 2015 to October 2017</h4>
+                    <ul>
+                        <li>Ensure that guests have the best possible out of home movie going experience.</li>
+                        <li>Train existing and newly hired crew member in daily job duties, conduct weekly stock counts,
+                            prepare weekly employee schedules, and conduct cash deposits during daily operations.</li>
+                        <li>Special training includes time as the expediter for AMC Dine-In locations, and as a
+                            projection/booth specialists.</li>
+                        <li>Managed special events under individually unique circumstances and requirements.</li>
+                    </ul>
+                </div>
+
+
+                <h2 id="education">Education</h2>
+                <button type="button" class="collapsible" id="multi">Multiverse - Software Engineering Bootcamp <p>
+                        &#9660</p></button>
+                <div class="content">
+                    <div>
+                        <h4>March 2022 through June 2023</h4>
+                        <ul>
+                            <li>Learned the basics of the software development life cycle, programming, and coding.</li>
+                            <li>Studied the full stack of software engineering tools including in depth modules
+                                regarding
+                                Front-end, deployment, and Back-end.</li>
+                            <li>Used my elective module to study application security.</li>
+                            <li>This 3 month bootcamp was the beginning of a 15 month apprenticeship that lead included 12
+                                more
+                                months of on the job training with ConvergeOne.</li>
+                            <li>Tech Stack: Javascript, HTML/CSS, React, Java, Express, Docker, Authentication, Authorization</li>
+                        </ul>
+                        
+                        <a target="_blank" href="Images/Multiverse_Certification.pdf">View my certificate here.
+                        <br>
+                        <img src="Images/Multiverse_Badge.png" alt="Multiverse certification badge." class="badge"/></a>
+
+                    </div>
+                </div>
+                <button type="button" class="collapsible" id="asu">Arizona State University - Information Technology,
+                    Networking and Security <p>&#9660</p></button>
+                <div class="content">
+                    <h4>February 2021 to June 2021</h4>
+                    <ul>
+                        <li>Completed one semester before deciding college wasn't for me.</li>
+                        <li>Studied Python, SQL, and human systems engineering.</li>
+                    </ul>
+                </div>
+
+            </content>
+
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                            content.style.display = "none";
+                        } else {
+                            content.style.display = "block";
+                        }
+                    });
+                }
+            </script>
+
+        </div>
+
+        <div id="portfolio">
+
+            <content>
+                <h2>My projects</h2>
+
+                <div id="professional">
+                    <h3>Professional Portfolio</h3>
+                    <div id="ipaas" class="projects">
+
+                        <img src="Images/C1 IPaaS Quote.png"
+                            alt="A screenshot of a company quote about the IPaaS solution." />
+
+                        <div class="desc">
+                            <h3>IPaaS Solutions - <a href="https://www.c1conversations.com">C1Conversations</a> </h3>
+
+                            <p>
+                                This product allows C1Conversations customers to connect their CRMs to our cloud storage
+                                for constant backups of their data, as well as personalization into what data is stored
+                                and how.
+                                <br>
+                                <br>
+                                This project started with a group of four developers (including me), each working on a
+                                solution for a different CRM. By the end of the project, I was the last remaining
+                                developer, and I had to learn the ins and outs of the other three solutions in order to
+                                combine them into one cohesive product to ship.
+                                <br>
+                                <br>
+                                The product ended up being so popular, my next project was to expand the capablities of
+                                the product to include more CRMs and more features, directly at the request of our
+                                customers.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="multiverse">
+                    <h3>Multiverse Portfolio</h3>
+                    <div id="p1" class="projects">
+
+                        <img src="Images/SMSKite.png" alt="GUI for my SMSKite project." />
+
+                        <div class="desc">
+
+                            <h3>Project 1 - <a href="https://github.com/JordanPHornback/SMSKite">SMSKite</a></h3>
+
+                            <p>
+                                This is a project built in Java using the Twilio Customer Engagement Platform.
+                                <br>
+                                <br>
+                                Once downloaded and built, this project creates a .jar file that will populate the GUI
+                                shown to the left here. Fill in the "To:" section with who you want to text, write your
+                                message, and hit send!
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div id="p2" class="projects">
+
+                        <img src="Images/Terminal Chat.png" alt="Example of the terminal chat in use." />
+
+                        <div class="desc">
+
+                            <h3>Project 2 - <a
+                                    href="https://github.com/JordanPHornback/Java-Terminal-Messaging-App">Terminal
+                                    Messaging App</a></h3>
+
+                            <p>This project is built in Java and runs in your computer's terminal.
+                                <br>
+                                <br>
+                                Start up the server on your localhost and then connect as many clients as you would like
+                                to have in the chat!
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div id="p3" class="projects">
+
+                        <img src="Images/Inventory App.png" alt="The main page of the inventory app." />
+
+                        <div class="desc">
+
+                            <h3>Project 3 - <a href="https://github.com/Awesome-Apple/inventory-app">Inventory App</a>
+                            </h3>
+
+                            <p>This project was our final group project in our 12 week boot camp. We were tasked with
+                                created a full stack application capable of managing inventory. The application has a
+                                working back end and front end.
+                                <br>
+                                <br>
+                                This backend allows users to perform all CRUD actions to the store's database.
+                                Users can add new items to the inventory, remove items, updated existing items in the
+                                inventory, and view all.
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                    <div id="p4" class="projects">
+
+                        <img src="Images/Multiverse Elearning.png"
+                            alt="Landing page of the Multiverse E-Learning platform." />
+
+                        <div class="desc">
+
+                            <h3>Project 4 - <a
+                                    href="https://github.com/multiverse-elearning-project/multiverse-elearning-project">Multiverse
+                                    E-Learning</a></h3>
+
+                            <p>This project is a mock-up of an e-learning website similar to Udemy.
+                                <br>
+                                <br>
+                                The platform features user authentication and authorization, role based CRUD operations
+                                varying between the users, admins, and course instructors. Users can enroll in courses,
+                                instructors can add/remove courses, and admins can do all of the above and control the
+                                roles assigned to registered accounts.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div id="p5" class="projects">
+
+                        <img src="Images/Instafraud.png" alt="A user's feed in the Instafraud app." />
+
+                        <div class="desc">
+
+                            <h3>Project 5 - <a href="https://github.com/InstaFraud/InstaFraud">InstaFraud</a></h3>
+
+                            <p>
+                                This project has an educational goal, but it also mimics some of the features and
+                                functionalities that major social networking apps like Instagram and Twitter offer.
+                                <br>
+                                <br>
+                                The main goal of this project was to develop a full stack application that can able run
+                                accross all environments with the help of Docker. The main features are user
+                                authentication and authorization (registration, signin and refresh token), role based
+                                CRUD operation on different posts, follow/unfollow other users, view profile and users
+                                reaction feature such as like and comment.
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </content>
+
+        </div>
+
+        <footer id="contact">
+            Author: Jordan Hornback
+            <a href="https://www.linkedin.com/in/jordan-hornback-020646187/">LinkedIn</a>
+            <a href="https://github.com/JordanPHornback">github</a>
+        </footer>
 
     </div>
 
